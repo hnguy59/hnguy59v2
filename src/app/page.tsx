@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
-import { CommandMenu } from "@/components/command-menu";
-import { RESUME_DATA } from "@/data/resume-data";
-import { generateResumeStructuredData } from "@/lib/structured-data";
+import { CommandMenu } from '@/components/command-menu';
+import { RESUME_DATA } from '@/data/resume-data';
+import { generateResumeStructuredData } from '@/lib/structured-data';
 
-import { Education } from "./components/education";
-import { Header } from "./components/header";
-import { Skills } from "./components/skills";
-import { Summary } from "./components/summary";
-import { WorkExperience } from "./components/work-experience";
+import { Education } from './components/education';
+import { Header } from './components/header';
+import { Skills } from './components/skills';
+import { Summary } from './components/summary';
+import { WorkExperience } from './components/work-experience';
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
@@ -20,18 +20,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://cv.jarocki.me/opengraph-image",
+        url: "https://hnguy59v2.vercel.app/",
         width: 1200,
         height: 630,
         alt: `${RESUME_DATA.name}'s profile picture`,
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${RESUME_DATA.name} - Resume`,
-    description: RESUME_DATA.about,
-    images: ["https://cv.jarocki.me/opengraph-image"],
   },
 };
 
