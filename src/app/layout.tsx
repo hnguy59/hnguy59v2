@@ -11,7 +11,6 @@ import type { Metadata, Viewport } from "next";
 import type React from "react";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hnguy59v2.vercel.app/"),
   title: {
     default: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     template: `%s | ${RESUME_DATA.name}`,
