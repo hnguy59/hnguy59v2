@@ -1,10 +1,15 @@
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
-import type React from "react";
+
 import { Avatar } from "@/components/avatar";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import { XIcon } from "@/components/icons/x-icon";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
+
+import portrait from "../../../public/images/portrait.jpeg";
+
+import type React from "react";
+
 import type { IconType } from "@/lib/types";
 
 // Type-safe icon mapping
@@ -190,7 +195,7 @@ export function Header() {
 
       <Avatar
         className="size-28 ring-1 ring-muted"
-        src={RESUME_DATA.avatarUrl}
+        src={portrait.src}
         alt={`${RESUME_DATA.name}'s profile picture`}
         fallback={RESUME_DATA.initials}
       />

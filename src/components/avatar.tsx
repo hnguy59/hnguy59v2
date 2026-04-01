@@ -23,7 +23,7 @@ export function Avatar({
     <div
       className={cn(
         "relative flex shrink-0 overflow-hidden rounded-xl bg-muted",
-        className
+        className,
       )}
     >
       {!error && src ? (
