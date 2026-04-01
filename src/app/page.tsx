@@ -4,6 +4,7 @@ import { CommandMenu } from '@/components/command-menu';
 import { RESUME_DATA } from '@/data/resume-data';
 import { generateResumeStructuredData } from '@/lib/structured-data';
 
+import animation from '../../public/images/bird-dance.gif';
 import { Education } from './components/education';
 import { Header } from './components/header';
 import { Skills } from './components/skills';
@@ -100,6 +101,9 @@ export default function ResumePage() {
               style={{ animationDelay: "300ms" }}
             >
               <Skills skills={RESUME_DATA.skills} />
+            </div>
+            <div className="animate-fade-in flex justify-center">
+              <img src={animation.src} alt="Animation" />
             </div>
           </div>
         </section>
