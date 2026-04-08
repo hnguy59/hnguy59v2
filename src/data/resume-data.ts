@@ -49,7 +49,7 @@ export const RESUME_DATA: ResumeData = {
       company: "Gretel Analytics",
       link: "https://startupgalaxy.com.au/startups/gretel-analytics",
       badges: ["Health", "AI", "Startup", "React", "Node.js", "AWS"],
-      title: "Software Engineer",
+      title: "Founding Engineer",
       start: "Jun 2023",
       end: "Dec 2023",
       description: "",
@@ -91,7 +91,6 @@ export const RESUME_DATA: ResumeData = {
       link: "hhttps://www.liquidinteractive.com.au/",
       badges: [
         "Head to Health",
-        "Typescript",
         "PHP",
         "Drupal/GovCMS",
         ".NET",
@@ -117,6 +116,9 @@ export const RESUME_DATA: ResumeData = {
     "AI/LLMs",
     "Design Systems",
     "System Architecture",
+    "UX/UI",
+    "Figma",
+    "Git",
   ],
   projects: [],
 } as const;
